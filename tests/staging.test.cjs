@@ -1,0 +1,21 @@
+const {test}=require('node:test');
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+test('staging denies unconfigured/incorrect credentials and protects assets',async()=>{
+ const source=fs.readFileSync('netlify/edge-functions/staging-auth.js','utf8');
+ const {default:gate}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
+ let settings={};global.Netlify={env:{get:name=>settings[name]}};
+ let calls=0;const context={next:async()=>{calls++;return new Response('protected asset')}};
+ const request=(auth)=>new Request('https://example.test/art/court.svg',{headers:auth?{authorization:auth}:{}});
+ assert.equal((await gate(request(),context)).status,503);
+ settings={STAGING_USERNAME:'reviewer',STAGING_PASSWORD:'test-password'};
+ assert.equal((await gate(request(),context)).status,401);
+ assert.equal((await gate(request('Basic '+btoa('reviewer:wrong')),context)).status,401);
+ assert.equal((await gate(request('Basic !invalid'),context)).status,401);
+ assert.equal(calls,0);
+ const result=await gate(request('Basic '+btoa('reviewer:test-password')),context);
+ assert.equal(await result.text(),'protected asset');assert.equal(calls,1);
+ assert.equal(result.headers.get('cache-control'),'private, no-store');
+ assert.match(result.headers.get('x-robots-tag'),/noindex/);
+ delete global.Netlify;
+});
