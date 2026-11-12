@@ -1,4 +1,4 @@
-/* County rendering never embeds, downloads or hotlinks association artwork. */
+/* Artwork renders only from embedded, identity-verified assets with permission for the current review context. */
 (function (root) {
   'use strict';
   const data = root.ICTCountyData;
@@ -9,7 +9,21 @@
   const find = name => records.find(c => c.name === name || c.id === name);
   const initials = c => c.name.startsWith('Isle of ') ? (c.name === 'Isle of Man' ? 'IOM' : 'IOW') : c.name.slice(0,2).toUpperCase();
   const external = (url, text, cls = '') => `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(text)}<span class="external-mark" aria-hidden="true"></span><span class="sr-only"> (opens in a new tab)</span></a>`;
-  const badge = c => `<span class="county-monogram" aria-hidden="true">${initials(c)}</span>`;
+  function artworkFor(c) {
+    const config = root.ICTCountyArtwork;
+    if (!config || !['private-preview', 'public-release'].includes(config.context)) return null;
+    const asset = config.assets?.[c.id];
+    if (!asset || asset.identity !== 'verified' || asset.permission?.status !== 'authorised') return null;
+    if (!asset.permission.allowedUses?.includes(config.context) || !asset.permission.evidence) return null;
+    if (!/^data:image\/(?:png|jpeg|gif|webp|svg\+xml);base64,[A-Za-z0-9+/=]+$/.test(asset.src || '')) return null;
+    return asset;
+  }
+  function badge(c) {
+    const asset = artworkFor(c);
+    return `<span class="county-artwork-area ${asset?.tone === 'dark' ? 'county-artwork-dark' : ''}">${asset
+      ? `<img class="county-official-artwork" src="${esc(asset.src)}" alt="${esc(c.associationName)} — official association artwork" decoding="async">`
+      : `<span class="county-monogram" aria-hidden="true">${initials(c)}</span>`}</span>`;
+  }
   function card(name) {
     const c = typeof name === 'string' ? find(name) : name;
     if (!c) return '';
@@ -31,7 +45,7 @@
       <div class="county-alphabet" role="group" aria-label="Filter counties by first letter"><button type="button" data-county-letter="" aria-pressed="true">All</button>${letters.map(l=>`<button type="button" data-county-letter="${l}" aria-pressed="false">${l}</button>`).join('')}</div>
       <div class="county-results-bar"><p id="county-count" role="status" aria-live="polite">Showing 41 of 41 associations</p><button id="clear-county-search" class="county-clear" type="button" hidden>Clear filters</button></div>
       <div id="county-results" class="county-grid county-directory-grid">${records.map(card).join('')}</div>
-      <div class="county-directory-footnote"><strong>Identity matters. Permission matters.</strong><p>The letter cards are placeholders, not county shields. Genuine association artwork will appear only after reuse permission has been recorded. No association logos or junior photographs are loaded here.</p><p>Directory sources checked ${formatDate(data.meta.verifiedAt)}. ${data.meta.membershipSources.map(s=>external(s.url,s.label)).join(' · ')}</p></div></section>`;
+      <div class="county-directory-footnote"><strong>Identity matters. Permission matters.</strong><p>${root.ICTCountyArtwork?.context === 'private-preview' ? 'Verified association artwork is shown only where permission for this private review is recorded. Initials remain wherever the current association artwork has not been verified. Public reuse permission is not implied.' : 'Initials are placeholders, not county shields. Association artwork will appear on the website only after permission for public use has been established. No privately authorised logos are loaded in this website build.'}</p><p>Directory sources checked ${formatDate(data.meta.verifiedAt)}. ${data.meta.membershipSources.map(s=>external(s.url,s.label)).join(' · ')}</p></div></section>`;
   }
   function heritage(c) {
     const h = c.ictHeritage;
@@ -45,7 +59,9 @@
       <section id="county-badminton" class="county-profile-body"><div class="county-profile-layout"><div><div class="eyebrow">The people behind the county</div><h2>A place in the game.</h2><p class="county-introduction">${esc(c.introduction)}</p>${sourceLinks(c,c.introductionSourceIds)}
       ${c.identityNote ? `<p class="county-research-note"><strong>Association identity:</strong> ${esc(c.identityNote)}</p>` : ''}
       <h3 class="profile-subheading">County badminton history</h3>${c.history.length ? c.history.map(h=>`<div class="county-history-fact"><p>${esc(h.text)}</p>${sourceLinks(c,h.sourceIds)}</div>`).join('') : '<p class="county-pending">A sourced county history has not yet been added. Founding dates and achievements will be included only when verified.</p>'}
-      </div><aside class="county-profile-sidebar" aria-label="County information"><span class="meta">Connect with the association</span><h3>Go straight to the source.</h3><p>For current clubs, programmes and eligibility, visit the association’s own resources.</p>${external(c.website.url,c.website.label,'button')}${c.name==='Devon' ? `<p class="county-research-note">This website covers junior badminton. Wider county association information is currently limited to its published identity.</p>${external('https://www.facebook.com/devonbadminton/','Wider county association on Facebook','text-link')}` : ''}<div class="county-sidebar-detail"><span class="meta">Sources checked</span><strong>${formatDate(c.verifiedAt)}</strong></div><div class="county-sidebar-detail"><span class="meta">Association artwork</span><strong>Text placeholder</strong><p>${esc(c.artwork.note)} Reuse permission is not established.</p></div></aside></div>
+      </div><aside class="county-profile-sidebar" aria-label="County information"><span class="meta">Connect with the association</span><h3>Go straight to the source.</h3><p>For current clubs, programmes and eligibility, visit the association’s own resources.</p>${external(c.website.url,c.website.label,'button')}${c.name==='Devon' ? `<p class="county-research-note">This website covers junior badminton. Wider county association information is currently limited to its published identity.</p>${external('https://www.facebook.com/devonbadminton/','Wider county association on Facebook','text-link')}` : ''}<div class="county-sidebar-detail"><span class="meta">Sources checked</span><strong>${formatDate(c.verifiedAt)}</strong></div><div class="county-sidebar-detail"><span class="meta">Association artwork</span><strong>${artworkFor(c) ? 'Official association artwork' : 'Initials placeholder'}</strong><p>${artworkFor(c)
+      ? (root.ICTCountyArtwork.context === 'private-preview' ? 'Authorised for this private preview, based on the owner’s confirmation. Public reuse is not approved.' : 'Permission for public display is recorded.')
+      : esc(c.artwork.note) + ' A verified current asset and permission for this context are required.'}</p></div></aside></div>
       <div class="county-programmes"><div class="section-head"><div><div class="eyebrow">Find your next rally</div><h2>Badminton for every chapter.</h2></div></div><div class="programme-grid">${Object.entries(c.programmes).map(([key,p],i)=>`<article class="programme-card"><span class="programme-number" aria-hidden="true">0${i+1}</span><span class="programme-status ${p.status==='confirmed'?'confirmed':''}">${p.status==='confirmed'?'Source confirmed':p.status==='needs-review'?'Details need confirmation':'Information to confirm'}</span><h3>${key==='junior'?'Junior':key==='senior'?'Senior':'Masters'} badminton</h3><p>${esc(p.text)}</p>${sourceLinks(c,p.sourceIds)}</article>`).join('')}</div></div></section>
       ${legacy ? `<section class="county-legacy"><details><summary>Existing Northamptonshire community information</summary><p class="county-pending">Original prototype community information and links, retained alongside the sourced profile. Any sample statements below are illustrative.</p>${legacy}</details></section>` : ''}
       ${heritage(c)}
@@ -71,5 +87,5 @@
     document.querySelector('#clear-county-search').addEventListener('click',()=>{input.value='';letter='';update();input.focus();});
     document.querySelector('#county-select').addEventListener('change',e=>{if(e.target.value)location.hash='county/'+encodeURIComponent(e.target.value);});
   }
-  root.ICTCountyDirectory = {find,card,directory,profile,bindDirectory};
+  root.ICTCountyDirectory = {find,card,directory,profile,bindDirectory,artworkFor};
 })(window);

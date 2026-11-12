@@ -316,10 +316,10 @@
         "achievements": []
       },
       "artwork": {
-        "status": "not-identified",
+        "status": "permission-required",
         "permissionStatus": "not-established",
         "display": "text-placeholder",
-        "note": "Badminton England branding is not a substitute for county identity."
+        "note": "Current association badge identified. Public reuse permission is not established; the website retains a placeholder."
       },
       "sources": [
         {

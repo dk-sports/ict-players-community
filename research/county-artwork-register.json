@@ -1,5 +1,5 @@
 {
-  "policy": "Permission required before artwork is served, downloaded into public assets or distributed. Current release status for every record: withheld.",
+  "policy": "Owner-confirmed association permission applies to PRIVATE PREVIEW ONLY. Public reuse remains unapproved. Only verified current association assets may appear; otherwise initials remain. No unencrypted privately authorised artwork is committed to this public repository.",
   "artwork": [
     {
       "countyId": "avon",
@@ -16,14 +16,45 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://avonba.org/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          " county Contact us Get in touch Notice: JavaScript is required for this content. [email omitted] Copyright © 2026 Avon Badminton Association",
+          "ntact us Get in touch Notice: JavaScript is required for this content. [email omitted] Copyright © 2026 Avon Badminton Association"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://avonba.org/contact-us/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:24.915271+00:00",
+        "sha256": "d093370b5c76987dd4592d34b7402390199784f4c68cd0b472ee8a824b2204d7",
+        "byteLength": 30703,
+        "format": "PNG",
+        "width": 466,
+        "height": 489
+      }
     },
     {
       "countyId": "bedfordshire",
@@ -40,14 +71,46 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.bedfordshirebadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "ne to suit you. Bedfordshire Area Contact our committee 2023 © Bedfordshire Badminton Association • All Rights Reserved • Website developed by Silver Innovation",
+          "lease refer to our clubs page to find one to suit you. Bedfordshire Area Contact our committee 2023 © Bedfordshire Badminton Association • All Rights Reserved • Website developed by Silver Innovation"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.bedfordshirebadminton.co.uk/contact",
+        "https://www.bedfordshirebadminton.co.uk/committee"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:24.915916+00:00",
+        "sha256": "7e6be41f2c4d233ea387816d742ab729595083b7a738bb5cf4107e3cdd07d358",
+        "byteLength": 16484,
+        "format": "PNG",
+        "width": 340,
+        "height": 106
+      }
     },
     {
       "countyId": "berkshire",
@@ -58,32 +121,99 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "placeholder-until-identity-verified",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "not-verified",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.berkshirebadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.berkshirebadminton.co.uk/contact-us"
+      ],
+      "retrieval": {
+        "status": "no-verified-asset"
+      },
+      "research": {
+        "status": "current-association-asset-not-established",
+        "checkedAt": "2026-11-12",
+        "sourcesChecked": [
+          "https://www.berkshirebadminton.co.uk/"
+        ],
+        "conclusion": "A generic shuttlecock image was rejected as unverified association artwork."
+      }
     },
     {
       "countyId": "buckinghamshire",
       "county": "Buckinghamshire",
       "sourcePage": "https://www.badmintonbucks.co.uk/",
-      "candidate": null,
-      "rejectedOrMissing": "Badminton England branding is not a substitute for county identity.",
+      "candidate": {
+        "url": "https://www.badmintonbucks.co.uk/wp-content/themes/BLANK-Theme/images/duck.png",
+        "format": "PNG",
+        "width": 400,
+        "height": 400,
+        "notes": "Current official header badge: swan holding a badminton racket. Matching named artwork appears in the official media library."
+      },
+      "rejectedOrMissing": null,
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.badmintonbucks.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "ournaments. Keep up to date with all the results and news on the dedicated pages or the News feed . ©2026 Badminton Buckinghamshire"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.badmintonbucks.co.uk/contact/",
+        "https://www.badmintonbucks.co.uk/county/contact/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:24.916625+00:00",
+        "sha256": "1908016d853620e2eb1e339136666e9aed42719586405f07a0a21073610adabf",
+        "byteLength": 73642,
+        "format": "PNG",
+        "width": 400,
+        "height": 400
+      }
     },
     {
       "countyId": "cambridgeshire",
@@ -100,14 +230,45 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.cambridgeshirebadminton.org/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "0 ) Tournaments ( 101 ) Results ( 147 ) News ( 192 ) Contact: [email omitted] Copyright © 2012 Peak Inc. Powered by Squarespace",
+          "ments ( 101 ) Results ( 147 ) News ( 192 ) Contact: [email omitted] Copyright © 2012 Peak Inc. Powered by Squarespace"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.cambridgeshirebadminton.org/contact"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:24.917126+00:00",
+        "sha256": "7561434a64e8cf1be6cb8a239abed6bf48f1cc2562264692d2ad67e1c9a21308",
+        "byteLength": 6614,
+        "format": "GIF",
+        "width": 82,
+        "height": 82
+      }
     },
     {
       "countyId": "cheshire",
@@ -124,14 +285,46 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.cheshirebadminton.org/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "ers 18/19 October 29, 2018 Contact Info GET IN TOUCH © 2018 Cheshire County Badminton Association . All Rights Reserved Design by Grace Themes",
+          "s Latest Posts Senior County Championships Winners 18/19 October 29, 2018 Contact Info GET IN TOUCH © 2018 Cheshire County Badminton Association . All Rights Reserved Design by Grace Themes"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.cheshirebadminton.org/contact/",
+        "http://www.cheshirebadminton.org/contact/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:24.917754+00:00",
+        "sha256": "61e770470c2d2534950dfd2e8bea64911174fff96bb2724eaa5a46cc54553735",
+        "byteLength": 70212,
+        "format": "PNG",
+        "width": 573,
+        "height": 638
+      }
     },
     {
       "countyId": "cornwall",
@@ -142,14 +335,50 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "placeholder-until-identity-verified",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "not-verified",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.cornwallbadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "Policy Sitemap News Archive Facebook Instagram Powered by EBIZ Systems | © 2025 Cornwall Badminton. All rights reserved",
+          "anfield… Read More Privacy Policy Sitemap News Archive Facebook Instagram Powered by EBIZ Systems | © 2025 Cornwall Badminton. All rights reserved"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.cornwallbadminton.co.uk/contact/"
+      ],
+      "retrieval": {
+        "status": "no-verified-asset"
+      },
+      "research": {
+        "status": "current-association-asset-not-established",
+        "checkedAt": "2026-11-12",
+        "sourcesChecked": [
+          "https://www.cornwallbadminton.co.uk/",
+          "https://www.cornwallbadminton.co.uk/wp-json/wp/v2/media?search=logo&per_page=20",
+          "https://www.cornwallbadminton.co.uk/wp-json/wp/v2/media?search=crest&per_page=20",
+          "https://www.cornwallbadminton.co.uk/wp-json/wp/v2/media?search=badge&per_page=20"
+        ],
+        "conclusion": "Official media contains CCBA development-fund marks and Cornwall Youth Badminton branding. These are not substituted for a verified general association identity; no cropping of programme marks."
+      }
     },
     {
       "countyId": "cumbria",
@@ -166,14 +395,45 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.cumbria-badminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "s Clubs Committee County Tournaments Calendar Safeguarding Contact © Cumbria Badminton Association. All rights reserved.",
+          "t In Touch → Quick Links Home News Clubs Committee County Tournaments Calendar Safeguarding Contact © Cumbria Badminton Association. All rights reserved."
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.cumbria-badminton.co.uk/contact.html"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:24.919409+00:00",
+        "sha256": "ad4b3c8e8d2a715fbd6eb1bfa015d0d1f8ba8fa060c68df0070fa5c0837d2dd1",
+        "byteLength": 1530539,
+        "format": "PNG",
+        "width": 1318,
+        "height": 1664
+      }
     },
     {
       "countyId": "derbyshire",
@@ -184,14 +444,44 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "placeholder-until-identity-verified",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "not-verified",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://derbyshirebadminton.org.uk/county-badminton",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://derbyshirebadminton.org.uk/contact-us"
+      ],
+      "retrieval": {
+        "status": "no-verified-asset"
+      },
+      "research": {
+        "status": "current-association-asset-not-established",
+        "checkedAt": "2026-11-12",
+        "sourcesChecked": [
+          "https://derbyshirebadminton.org.uk/county-badminton"
+        ],
+        "conclusion": "A county flag is not treated as a verified association logo."
+      }
     },
     {
       "countyId": "devon",
@@ -202,14 +492,50 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "placeholder-until-identity-verified",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "not-verified",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.devoncountyjuniorbadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "hile making lifelong friendships. Facebook Powered by EBIZ Systems | © 2026 Devon Junior Badminton. All rights reserved",
+          "rive and develop their skills while making lifelong friendships. Facebook Powered by EBIZ Systems | © 2026 Devon Junior Badminton. All rights reserved"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.devoncountyjuniorbadminton.co.uk/contact-us/"
+      ],
+      "retrieval": {
+        "status": "no-verified-asset"
+      },
+      "research": {
+        "status": "current-association-asset-not-established",
+        "checkedAt": "2026-11-12",
+        "sourcesChecked": [
+          "https://www.devoncountyjuniorbadminton.co.uk/",
+          "https://www.devoncountyjuniorbadminton.co.uk/wp-json/wp/v2/media?search=logo&per_page=20",
+          "https://www.devoncountyjuniorbadminton.co.uk/wp-json/wp/v2/media?search=crest&per_page=20",
+          "https://www.devoncountyjuniorbadminton.co.uk/wp-json/wp/v2/media?search=badge&per_page=20"
+        ],
+        "conclusion": "The Divi theme logo is not county association artwork."
+      }
     },
     {
       "countyId": "dorset",
@@ -226,14 +552,42 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.dorsetbadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.dorsetbadminton.co.uk/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:24.920326+00:00",
+        "sha256": "5f9b3fc2893075a8eee7137f3356ec2337e6cdc5c566c75d34e95fca72e446aa",
+        "byteLength": 1148109,
+        "format": "PNG",
+        "width": 962,
+        "height": 962
+      }
     },
     {
       "countyId": "durham",
@@ -250,14 +604,44 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://durhamcountybadminton.wordpress.com/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "ham County Badminton on Facebook, Instagram & X for the latest updates & news! Facebook Instagram X © 2026 Durham County Badminton Association Website Powered by WordPress.com . To the top ↑ Up ↑ Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. To "
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://durhamcountybadminton.wordpress.com/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:26.127400+00:00",
+        "sha256": "e466c87d0da9c25613fb5bcde2d9f8872e5eea0b9b2ec7c66efe6d8f01397f7e",
+        "byteLength": 73999,
+        "format": "JPEG",
+        "width": 293,
+        "height": 293
+      }
     },
     {
       "countyId": "essex",
@@ -274,14 +658,43 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.badmintonessex.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.badmintonessex.co.uk/ecba-contact-us"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:26.715881+00:00",
+        "sha256": "eba71f53d64e7aa9e15b64953f9585ab698590d3dc1c9aef3cef5a0f5a7152b9",
+        "byteLength": 19865,
+        "format": "SVG",
+        "width": null,
+        "height": null,
+        "embeddedLicenceReferences": []
+      }
     },
     {
       "countyId": "gloucestershire",
@@ -298,14 +711,42 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.badmintonglos.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.badmintonglos.co.uk/ContactUs"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:26.828735+00:00",
+        "sha256": "62d1b4cb2de08b08dcee7625e5239a2268018d1d855edb43e9e78c158082ac2c",
+        "byteLength": 493237,
+        "format": "PNG",
+        "width": 1280,
+        "height": 625
+      }
     },
     {
       "countyId": "guernsey",
@@ -322,14 +763,45 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://badminton.org.gg/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          " to take on whatever comes your way. View All Clubs Follow us on Social Media! Follow Follow Follow © 2026 | Guernsey Badminton Association LBG Privacy Policy Follow us on Social Media! Follow Follow Follow © 2026 | Guernsey Badminton Association LBG Privacy Policy",
+          "| Guernsey Badminton Association LBG Privacy Policy Follow us on Social Media! Follow Follow Follow © 2026 | Guernsey Badminton Association LBG Privacy Policy"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://badminton.org.gg/contact/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:26.859793+00:00",
+        "sha256": "631147336078e4ed72256dc899bb412ffc27348ce9f44f9aa83915ea822c4728",
+        "byteLength": 32995,
+        "format": "PNG",
+        "width": 360,
+        "height": 377
+      }
     },
     {
       "countyId": "hampshire",
@@ -346,14 +818,46 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://hampshirebadminton.net/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          " Registered Address Highland House, Mayflower Close, Chandlers Ford, Eastleigh, Hampshire, SO53 4AR Copyright © 2026 Hampshire Badminton Association Ltd. Registered in England No 4201738",
+          "d Address Highland House, Mayflower Close, Chandlers Ford, Eastleigh, Hampshire, SO53 4AR Copyright © 2026 Hampshire Badminton Association Ltd. Registered in England No 4201738"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.hampshirebadminton.net/useful-contacts",
+        "https://www.hampshirebadminton.net/contact"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:27.308020+00:00",
+        "sha256": "d95dff4f771b04d058e301df613802319368377a9a3db4c7b016ddff65ab970d",
+        "byteLength": 76417,
+        "format": "JPEG",
+        "width": 898,
+        "height": 473
+      }
     },
     {
       "countyId": "herefordshire",
@@ -364,14 +868,44 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "placeholder-until-identity-verified",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "not-verified",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.herefordshirebadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.herefordshirebadminton.co.uk/"
+      ],
+      "retrieval": {
+        "status": "no-verified-asset"
+      },
+      "research": {
+        "status": "current-association-asset-not-established",
+        "checkedAt": "2026-11-12",
+        "sourcesChecked": [
+          "https://www.herefordshirebadminton.co.uk/"
+        ],
+        "conclusion": "A generic shuttlecock illustration is not a verified association logo."
+      }
     },
     {
       "countyId": "hertfordshire",
@@ -388,14 +922,44 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.hertsbadminton.net/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "please send them to Simon Gouldstone or Dave Bartlett . Hertfordshire Badminton Association website © 2026 Website Powered by FixturesLive"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.hertsbadminton.net/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:27.372995+00:00",
+        "sha256": "99716ad022804e78fda5ddb03c07d8e174dc807c3bf6227a1d33cbcd19ff3f1e",
+        "byteLength": 1612,
+        "format": "JPEG",
+        "width": 83,
+        "height": 68
+      }
     },
     {
       "countyId": "isle-of-man",
@@ -412,14 +976,45 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.iombadminton.com/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "up Sponsored Under 17s Island Badminton Championships brought an excellent turnout at the Read More © Isle of Man Badminton Association. Links Child Protection Anti Doping Policy Insurance Privacy Policy Badminton England Membership Find us on: Search site Search for: Search"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.iombadminton.com/contact-us-2/",
+        "https://www.iombadminton.com/clubs/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:28.135792+00:00",
+        "sha256": "4655d7f5794e58b0454229bd51f0cd5cb0f1854cd4bd4222b66b32f0d6afa23a",
+        "byteLength": 67897,
+        "format": "PNG",
+        "width": 2473,
+        "height": 854
+      }
     },
     {
       "countyId": "isle-of-wight",
@@ -430,14 +1025,50 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "placeholder-until-identity-verified",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "not-verified",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.wightbadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "Opens in new window) X Email a link to a friend (Opens in new window) Email Wight Badminton © 2026. All Rights Reserved. Getwid Base Theme by MotoPress .",
+          "e on X (Opens in new window) X Email a link to a friend (Opens in new window) Email Wight Badminton © 2026. All Rights Reserved. Getwid Base Theme by MotoPress ."
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.wightbadminton.co.uk/"
+      ],
+      "retrieval": {
+        "status": "no-verified-asset"
+      },
+      "research": {
+        "status": "current-association-asset-not-established",
+        "checkedAt": "2026-11-12",
+        "sourcesChecked": [
+          "https://www.wightbadminton.co.uk/",
+          "https://www.wightbadminton.co.uk/wp-json/wp/v2/media?search=logo&per_page=20",
+          "https://www.wightbadminton.co.uk/wp-json/wp/v2/media?search=crest&per_page=20",
+          "https://www.wightbadminton.co.uk/wp-json/wp/v2/media?search=badge&per_page=20"
+        ],
+        "conclusion": "Current header combines a badminton photograph with a small IWBA mark; a standalone verified current identity file was not found. The photograph is not used as a substitute and the mark is not cropped out."
+      }
     },
     {
       "countyId": "jersey",
@@ -454,14 +1085,46 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "http://www.jerseybadminton.net/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "t present, please visit again soon! Sponsors & Partners © 2015 - 2026 Jersey Badminton Association. All rights reserved. To contact your Data Controller, click here www.jerseybadminton.net If you wish to withdraw consent from us holding your personal data please email [email omitted] requesting your da",
+          "vent Location There are no upcoming events at present, please visit again soon! Sponsors & Partners © 2015 - 2026 Jersey Badminton Association. All rights reserved. To contact your Data Controller, click here www.jerseybadminton.net If you wish to withdraw consent from us holding your personal data p"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "http://www.jerseybadminton.net/",
+        "https://jerseybadminton.clubbuzz.co.uk/contact_us"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:28.414983+00:00",
+        "sha256": "881c2d94cbde4254c144e3a35f439a0bfbd33ed3f3ac4a21117808cadf4fe1c5",
+        "byteLength": 7566,
+        "format": "JPEG",
+        "width": 92,
+        "height": 92
+      }
     },
     {
       "countyId": "kent",
@@ -478,14 +1141,45 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.kentbadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "isclaimer Kent Badminton Facebook Kent Badminton Ltd Site Hosted and Marketed by BCTec Ltd © 2026 - All Rights Reserved",
+          "t is your responsibility to report your concerns to the appropriate Welfare Officer. Privacy Notice Copyright & Disclaimer Kent Badminton Facebook Kent Badminton Ltd Site Hosted and Marketed by BCTec Ltd © 2026 - All Rights Reserved"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.kentbadminton.co.uk/Contact"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:28.725329+00:00",
+        "sha256": "bd57097c3f4dbd45cec9783ab3cb8519ce802b960d0f769d31488d931cefc77f",
+        "byteLength": 86462,
+        "format": "PNG",
+        "width": 1524,
+        "height": 347
+      }
     },
     {
       "countyId": "lancashire",
@@ -502,14 +1196,44 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.lancashirebadminton.org.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "he County. Check out our Coaching page for details. Privacy Notice Terms and Conditions Advertising © Lancashire County Badminton Association 2022-2026 Powered by: BaddersWeb Created by: EasierThan Website Design, Lancashire"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.lancashirebadminton.org.uk/Contact_Us.asp"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:28.832064+00:00",
+        "sha256": "1ebfe83ac714d0025e674209e727d769673c7688a89c9e144d51cfa166380765",
+        "byteLength": 8990,
+        "format": "JPEG",
+        "width": 250,
+        "height": 250
+      }
     },
     {
       "countyId": "leicestershire",
@@ -526,14 +1250,44 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.lbabadminton.org/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "orry, there are currently no news items to display. Privacy Notice Terms and Conditions Advertising © Leicestershire Badminton Association 2025-2026 Powered by: BaddersWeb Created by: EasierThan Website Design"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.lbabadminton.org/Contact_Us.asp"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:29.049310+00:00",
+        "sha256": "76ae25d0b161af84d84d90b781281560f646b850917200efb7e085b25f50d7c8",
+        "byteLength": 6085,
+        "format": "JPEG",
+        "width": 250,
+        "height": 250
+      }
     },
     {
       "countyId": "lincolnshire",
@@ -544,14 +1298,49 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "placeholder-until-identity-verified",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "not-verified",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://lincs-badminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://lincs-badminton.co.uk/",
+        "https://lincs-badminton.co.uk/lba-main-contacts/",
+        "https://lincs-badminton.co.uk/under-1113-manager-coaches/"
+      ],
+      "retrieval": {
+        "status": "no-verified-asset"
+      },
+      "research": {
+        "status": "current-association-asset-not-established",
+        "checkedAt": "2026-11-12",
+        "sourcesChecked": [
+          "https://lincs-badminton.co.uk/",
+          "https://lincs-badminton.co.uk/wp-json/wp/v2/media?search=logo&per_page=20",
+          "https://lincs-badminton.co.uk/wp-json/wp/v2/media?search=crest&per_page=20",
+          "https://lincs-badminton.co.uk/wp-json/wp/v2/media?search=badge&per_page=20"
+        ],
+        "conclusion": "A county flag and team photographs are not substitutes for an association logo."
+      }
     },
     {
       "countyId": "middlesex",
@@ -568,14 +1357,42 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.middlesexbadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.middlesexbadminton.co.uk/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:29.613157+00:00",
+        "sha256": "59ea13afa2276a9e4ded4dc80b2f97267e5ac94856a3d256842b005af8da7885",
+        "byteLength": 6589,
+        "format": "GIF",
+        "width": 93,
+        "height": 139
+      }
     },
     {
       "countyId": "norfolk",
@@ -592,14 +1409,47 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://norfolkbadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "n Get In Touch [email omitted] Website created by Altitude Badminton Copyright © 2025. All rights reserved.",
+          "unteer Constitution Get In Touch [email omitted] Website created by Altitude Badminton Copyright © 2025. All rights reserved."
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://norfolkbadminton.co.uk/contact-us/",
+        "https://norfolkbadminton.co.uk/contact/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:29.778669+00:00",
+        "sha256": "b3b501a278fe4372a7ce83ac6f16e926309c6b41fabba0d10270934fcd860246",
+        "byteLength": 30026,
+        "format": "SVG",
+        "width": 1500,
+        "height": 500,
+        "embeddedLicenceReferences": []
+      }
     },
     {
       "countyId": "northamptonshire",
@@ -616,14 +1466,45 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://nscba.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "NN4 9UE, United Kingdom Join Now Name * Email * Subject * Message * some-randome-random Copyright © All Rights Reserved",
+          "orthampton, NN4 9UE, United Kingdom Join Now Name * Email * Subject * Message * some-randome-random Copyright © All Rights Reserved"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://nscba.co.uk/committee-meetings"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:29.884847+00:00",
+        "sha256": "ae9224613d25e33dac7d1a3ab7414a4a4cc8083a0e54e61c8b9e684d0389554a",
+        "byteLength": 51736,
+        "format": "PNG",
+        "width": 500,
+        "height": 500
+      }
     },
     {
       "countyId": "northumberland",
@@ -640,14 +1521,42 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.northumberlandbadminton.org/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.northumberlandbadminton.org/contact-2/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:30.207726+00:00",
+        "sha256": "6e5d0862d13742ebb62ad6b5f27ee4d95564080dd250ae2c657f5bb800410149",
+        "byteLength": 155765,
+        "format": "PNG",
+        "width": 897,
+        "height": 1024
+      }
     },
     {
       "countyId": "nottinghamshire",
@@ -664,14 +1573,42 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://nottsba.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://nottsba.co.uk/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:30.670267+00:00",
+        "sha256": "25d2e112b422460199f928d020d66eca909401ab5dde51ed00ef8e9527ebcaed",
+        "byteLength": 78797,
+        "format": "PNG",
+        "width": 1936,
+        "height": 1933
+      }
     },
     {
       "countyId": "oxfordshire",
@@ -682,14 +1619,46 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "placeholder-until-identity-verified",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "not-verified",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://clubspark.lta.org.uk/oxfordshirebadmintonassociation",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          " Audlett Drive, ,, ABINGDON, Oxfordshire, OX14 3PJ Our Partners Oxfordshire Badminton Association X © Clubspark Group Ltd 2026 Terms & Conditions Privacy Policy"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://clubspark.lta.org.uk/oxfordshirebadmintonassociation/Contact"
+      ],
+      "retrieval": {
+        "status": "no-verified-asset"
+      },
+      "research": {
+        "status": "current-association-asset-not-established",
+        "checkedAt": "2026-11-12",
+        "sourcesChecked": [
+          "https://clubspark.lta.org.uk/oxfordshirebadmintonassociation"
+        ],
+        "conclusion": "Accessible official page references team photographs, not an identifiable association logo. A later direct request returned HTTP 403. Placeholder retained."
+      }
     },
     {
       "countyId": "shropshire",
@@ -706,14 +1675,44 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.shropshirebadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.shropshirebadminton.co.uk/contacts",
+        "https://www.shropshirebadminton.co.uk/copy-of-contacts",
+        "https://www.shropshirebadminton.co.uk/contact-us"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:31.704108+00:00",
+        "sha256": "c6a3968d8326df2682bfaaddc2206cfb76c03b75efecc4ff171ce85d180bc444",
+        "byteLength": 15436,
+        "format": "PNG",
+        "width": 226,
+        "height": 100
+      }
     },
     {
       "countyId": "somerset",
@@ -730,14 +1729,45 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://somersetbadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          " and Terms of Service apply. Somerset County Badminton Copyright © 2026 Somerset County Badminton - All Rights Reserved. Powered by Privacy Policy This website uses cookies. We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated wit",
+          "ed by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. Somerset County Badminton Copyright © 2026 Somerset County Badminton - All Rights Reserved. Powered by Privacy Policy This website uses cookies. We use cookies to analyze website traffic and optimize your website experience. By accepti"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://somersetbadminton.co.uk/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:31.768129+00:00",
+        "sha256": "3ec16e5dcef9bc75fe7cc2b2135303b9b61d775ff15e371180e4a61ef1a04cb9",
+        "byteLength": 24685,
+        "format": "JPEG",
+        "width": 742,
+        "height": 159
+      }
     },
     {
       "countyId": "staffordshire",
@@ -748,14 +1778,51 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "placeholder-until-identity-verified",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "not-verified",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://staffsbadminton.org/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          ".00 PM Badminton School & Sports Club Themes. Powered by Gutenverse Blocks Addons Copyright © 2025. All rights reserved. imunify-bot-check",
+          ".com 07.00 AM – 19.00 PM Badminton School & Sports Club Themes. Powered by Gutenverse Blocks Addons Copyright © 2025. All rights reserved. imunify-bot-check"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://staffsbadminton.org/contacts/"
+      ],
+      "retrieval": {
+        "status": "no-verified-asset"
+      },
+      "research": {
+        "status": "current-association-asset-not-established",
+        "checkedAt": "2026-11-12",
+        "sourcesChecked": [
+          "https://staffsbadminton.org/",
+          "https://staffsbadminton.org/wp-json/wp/v2/media?search=logo&per_page=20",
+          "https://staffsbadminton.org/wp-json/wp/v2/media?search=crest&per_page=20",
+          "https://staffsbadminton.org/wp-json/wp/v2/media?search=badge&per_page=20"
+        ],
+        "conclusion": "Official library contains StaffsBA_logo.gif (2017), but the current header uses an unverified SMASH graphic. An older county wordmark and a county-knot favicon do not establish the approved current identity. Placeholder retained.",
+        "historicalCandidate": "https://staffsbadminton.org/wp-content/uploads/2017/12/StaffsBA_logo.gif"
+      }
     },
     {
       "countyId": "suffolk",
@@ -772,14 +1839,45 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://suffolkbadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://suffolkbadminton.co.uk/contact2.html",
+        "https://suffolkbadminton.co.uk/contact-adrian-cook.html",
+        "https://suffolkbadminton.co.uk/contact-mckinley.html"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:31.884550+00:00",
+        "sha256": "378d8e19f86976a4b693a59647fe0b007ad98eadd676ce0cea8a169b6c6bb3bb",
+        "byteLength": 16964,
+        "format": "SVG",
+        "width": null,
+        "height": null,
+        "embeddedLicenceReferences": []
+      }
     },
     {
       "countyId": "surrey",
@@ -796,14 +1894,42 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.surreybadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.surreybadminton.co.uk/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:32.073838+00:00",
+        "sha256": "0c3c8921303618db181b92d379da59336c67cd05f7369043d75e8872279563a5",
+        "byteLength": 12980,
+        "format": "GIF",
+        "width": 144,
+        "height": 172
+      }
     },
     {
       "countyId": "sussex",
@@ -820,14 +1946,44 @@
       "identifiedAt": "2026-11-07",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://sussexbadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "enge Results Senior Restricted Results Follow us on our social media channels... Facebook Instagram © 2026 Powered by WordPress | Theme: AccessPress Mag Top"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://sussexbadminton.co.uk/contact-us/"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:32.791277+00:00",
+        "sha256": "7b18e46c461afd3ca4f378884738e3a0ffe20f8733948ea97ff9931839ef30db",
+        "byteLength": 14661,
+        "format": "JPEG",
+        "width": 275,
+        "height": 275
+      }
     },
     {
       "countyId": "warwickshire",
@@ -838,14 +1994,44 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "placeholder-until-identity-verified",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "not-verified",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.badmintonwarwickshire.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.badmintonwarwickshire.co.uk/contact-8"
+      ],
+      "retrieval": {
+        "status": "no-verified-asset"
+      },
+      "research": {
+        "status": "current-association-asset-not-established",
+        "checkedAt": "2026-11-12",
+        "sourcesChecked": [
+          "https://www.badmintonwarwickshire.co.uk/"
+        ],
+        "conclusion": "The county flag is not treated as an association logo."
+      }
     },
     {
       "countyId": "wiltshire",
@@ -862,14 +2048,45 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "private-preview-only",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "verified-current",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.wcba.org.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [
+          "ll age levels or abilities We value your privacy. View our Full Data Privacy Policy . Wiltshire CBA Copyright © v0.98 WCBA Data Privacy Policy × Last Updated: January 2026 Wiltshire County Badminton Association (WCBA) is committed to protecting your privacy in accordance with UK GDPR. We collect only the min",
+          "els or abilities We value your privacy. View our Full Data Privacy Policy . Wiltshire CBA Copyright © v0.98 WCBA Data Privacy Policy × Last Updated: January 2026 Wiltshire County Badminton Association (WCBA) is committed to protecting your privacy in accordance with UK GDPR. We collect only the minim"
+        ],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.wcba.org.uk/sitecontacts.php"
+      ],
+      "retrieval": {
+        "status": "ready-for-private-preview",
+        "checkedAt": "2026-11-12T16:30:32.814648+00:00",
+        "sha256": "44155094914c88257f2d0149c394bdd7263fe17d401d0855e12fa416cc4535da",
+        "byteLength": 32119,
+        "format": "PNG",
+        "width": 599,
+        "height": 663
+      }
     },
     {
       "countyId": "worcestershire",
@@ -880,14 +2097,44 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "placeholder-until-identity-verified",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "not-verified",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://www.worcestershirebadminton.co.uk/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://www.worcestershirebadminton.co.uk/contact-us"
+      ],
+      "retrieval": {
+        "status": "no-verified-asset"
+      },
+      "research": {
+        "status": "current-association-asset-not-established",
+        "checkedAt": "2026-11-12",
+        "sourcesChecked": [
+          "https://www.worcestershirebadminton.co.uk/"
+        ],
+        "conclusion": "Official site references Google-hosted artwork; the image request returned HTTP 403 and its identity could not be verified. Placeholder retained."
+      }
     },
     {
       "countyId": "yorkshire",
@@ -898,14 +2145,44 @@
       "identifiedAt": "2026-11-12",
       "reviewedAt": "2026-11-12",
       "permission": {
-        "status": "not-established",
-        "evidence": null,
-        "allowedUses": [],
+        "status": "user-confirmed-private-preview",
+        "evidence": {
+          "type": "owner-confirmation",
+          "date": "2026-11-12",
+          "reference": "Private review conversation; permission confirmed for all county associations.",
+          "limitation": "Private preview only; no written association licences have been independently reviewed."
+        },
+        "allowedUses": [
+          "private-preview"
+        ],
+        "publicUse": "not-established",
         "credit": null
       },
-      "releaseStatus": "withheld",
+      "releaseStatus": "placeholder-until-identity-verified",
       "localFile": null,
-      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+      "preparation": "Private artwork bytes remain outside the checkout. Only an encrypted offline artifact may contain the privately authorised artwork. No public assets or hotlinks. Preserve original proportions; public reuse needs separate evidence.",
+      "identityStatus": "not-verified",
+      "websiteReuseReview": {
+        "checkedAt": "2026-11-12",
+        "source": "https://yorkshirebadminton.weebly.com/",
+        "status": "no-applicable-public-artwork-licence-established",
+        "statements": [],
+        "note": "Only accessible public material was reviewed. Copyright notices, software/theme licences and missing notices do not establish artwork reuse rights."
+      },
+      "contactLinks": [
+        "https://yorkshirebadminton.weebly.com/contact-us.html"
+      ],
+      "retrieval": {
+        "status": "no-verified-asset"
+      },
+      "research": {
+        "status": "current-association-asset-not-established",
+        "checkedAt": "2026-11-12",
+        "sourcesChecked": [
+          "https://yorkshirebadminton.weebly.com/"
+        ],
+        "conclusion": "The Babolat sponsor banner is not county identity artwork."
+      }
     }
   ]
 }

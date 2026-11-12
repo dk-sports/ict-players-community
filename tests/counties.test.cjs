@@ -24,7 +24,7 @@ test('all 41 provisional association records have usable copy, traceable facts a
   assert.equal(c.artwork.permissionStatus,'not-established');
   assert.equal(c.artwork.display,'text-placeholder');
   const a=artwork.artwork.find(a=>a.countyId===c.id);
-  assert.equal(a.releaseStatus,'withheld');assert.equal(a.localFile,null);assert.equal(a.permission.evidence,null);
+  assert.ok(['private-preview-only','placeholder-until-identity-verified'].includes(a.releaseStatus));assert.equal(a.localFile,null);assert.equal(a.permission.publicUse,'not-established');assert.deepEqual(a.permission.allowedUses,['private-preview']);
   assert.deepEqual(c.ictHeritage.photographs,[]);assert.deepEqual(c.ictHeritage.memories,[]);
  }
  assert.deepEqual(data.associations.filter(c=>c.ictHeritage.records.length).map(c=>c.name),['Hertfordshire','Oxfordshire','Warwickshire']);
