@@ -1,0 +1,911 @@
+{
+  "policy": "Permission required before artwork is served, downloaded into public assets or distributed. Current release status for every record: withheld.",
+  "artwork": [
+    {
+      "countyId": "avon",
+      "county": "Avon",
+      "sourcePage": "https://avonba.org/",
+      "candidate": {
+        "url": "https://avonba.org/wp-content/uploads/2025/06/avonlogo-white.png",
+        "format": "PNG",
+        "width": 466,
+        "height": 489,
+        "notes": "White transparent association mark; use on a contrasting background after permission."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "bedfordshire",
+      "county": "Bedfordshire",
+      "sourcePage": "https://www.bedfordshirebadminton.co.uk/",
+      "candidate": {
+        "url": "https://www.bedfordshirebadminton.co.uk/assets/base/img/layout/logos/bedfordshire-badminton-logo.png",
+        "format": "PNG",
+        "width": 340,
+        "height": 106,
+        "notes": "Association wordmark; request vector master."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "berkshire",
+      "county": "Berkshire",
+      "sourcePage": "https://www.berkshirebadminton.co.uk/",
+      "candidate": null,
+      "rejectedOrMissing": "A generic shuttlecock image was rejected as unverified association artwork.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "buckinghamshire",
+      "county": "Buckinghamshire",
+      "sourcePage": "https://www.badmintonbucks.co.uk/",
+      "candidate": null,
+      "rejectedOrMissing": "Badminton England branding is not a substitute for county identity.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "cambridgeshire",
+      "county": "Cambridgeshire",
+      "sourcePage": "https://www.cambridgeshirebadminton.org/",
+      "candidate": {
+        "url": "https://static1.squarespace.com/static/504ba455e4b00e2aa82ce497/t/504cf76a84ae9202895e80aa/1347221468213/cambba.gif?format=1500w",
+        "format": "GIF",
+        "width": 82,
+        "height": 82,
+        "notes": "Very small crest; request higher-resolution master."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "cheshire",
+      "county": "Cheshire",
+      "sourcePage": "https://www.cheshirebadminton.org/",
+      "candidate": {
+        "url": "https://www.cheshirebadminton.org/wp-content/uploads/2018/09/Cheshire-badminton-blue-solid-background.png",
+        "format": "PNG",
+        "width": 573,
+        "height": 638,
+        "notes": "Transparent association crest."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "cornwall",
+      "county": "Cornwall",
+      "sourcePage": "https://www.cornwallbadminton.co.uk/",
+      "candidate": null,
+      "rejectedOrMissing": "A county flag is not treated as a verified association logo.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "cumbria",
+      "county": "Cumbria",
+      "sourcePage": "https://www.cumbria-badminton.co.uk/",
+      "candidate": {
+        "url": "https://www.cumbria-badminton.co.uk/images/logo.png",
+        "format": "PNG",
+        "width": 1318,
+        "height": 1664,
+        "notes": "Transparent association crest."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "derbyshire",
+      "county": "Derbyshire",
+      "sourcePage": "https://derbyshirebadminton.org.uk/county-badminton",
+      "candidate": null,
+      "rejectedOrMissing": "A county flag is not treated as a verified association logo.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "devon",
+      "county": "Devon",
+      "sourcePage": "https://www.devoncountyjuniorbadminton.co.uk/",
+      "candidate": null,
+      "rejectedOrMissing": "The Divi theme logo is not county association artwork.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "dorset",
+      "county": "Dorset",
+      "sourcePage": "https://www.dorsetbadminton.co.uk/",
+      "candidate": {
+        "url": "https://images.squarespace-cdn.com/content/v1/683eb5a2bcd0f3160c5d552c/1748940200336-70L8UVYXDG7G9F8873G6/Dorset+Logo.png?format=1500w",
+        "format": "PNG",
+        "width": 962,
+        "height": 962,
+        "notes": "Transparent association logo."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "durham",
+      "county": "Durham",
+      "sourcePage": "https://durhamcountybadminton.wordpress.com/",
+      "candidate": {
+        "url": "https://durhamcountybadminton.wordpress.com/wp-content/uploads/2022/01/cropped-dcba1.jpg",
+        "format": "JPEG",
+        "width": 293,
+        "height": 293,
+        "notes": "Request a larger transparent original."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "essex",
+      "county": "Essex",
+      "sourcePage": "https://www.badmintonessex.co.uk/",
+      "candidate": {
+        "url": "https://www.badmintonessex.co.uk/images/badminton-essex-dark-bg.svg",
+        "format": "SVG",
+        "width": null,
+        "height": null,
+        "notes": "Vector association branding; check intended background."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "gloucestershire",
+      "county": "Gloucestershire",
+      "sourcePage": "https://www.badmintonglos.co.uk/",
+      "candidate": {
+        "url": "https://www.badmintonglos.co.uk/images/0/27782619/be7ca600-77a7-48c0-91ae-351dc6496d64-bpY30zb4uh30o8wSDU0mPw.png",
+        "format": "PNG",
+        "width": 1280,
+        "height": 625,
+        "notes": "Association-branded header image; opaque background."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "guernsey",
+      "county": "Guernsey",
+      "sourcePage": "https://badminton.org.gg/",
+      "candidate": {
+        "url": "https://guernseybadmintonass4607.live-website.com/wp-content/uploads/2022/12/GSYBadmintonLogoWhite2.png",
+        "format": "PNG",
+        "width": 360,
+        "height": 377,
+        "notes": "White transparent association mark."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "hampshire",
+      "county": "Hampshire",
+      "sourcePage": "https://hampshirebadminton.net/",
+      "candidate": {
+        "url": "https://images.squarespace-cdn.com/content/v1/6a27df819b7f7073f7592cbd/12f3bb76-63a6-46f0-9d48-ad8fd844e903/HBA_website.jpg?format=1500w",
+        "format": "JPEG",
+        "width": 898,
+        "height": 473,
+        "notes": "Association wordmark; request transparent/vector original."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "herefordshire",
+      "county": "Herefordshire",
+      "sourcePage": "https://www.herefordshirebadminton.co.uk/",
+      "candidate": null,
+      "rejectedOrMissing": "A generic shuttlecock illustration is not a verified association logo.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "hertfordshire",
+      "county": "Hertfordshire",
+      "sourcePage": "https://www.hertsbadminton.net/",
+      "candidate": {
+        "url": "https://www.hertsbadminton.net/wp-content/uploads/sites/31/2018/09/HBA-Crest.jpg",
+        "format": "JPEG",
+        "width": 83,
+        "height": 68,
+        "notes": "Very small crest; request larger master."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "isle-of-man",
+      "county": "Isle of Man",
+      "sourcePage": "https://www.iombadminton.com/",
+      "candidate": {
+        "url": "https://www.iombadminton.com/wp-content/uploads/2023/08/whiteAsset-2@4x-1.png",
+        "format": "PNG",
+        "width": 2473,
+        "height": 854,
+        "notes": "Transparent association wordmark."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "isle-of-wight",
+      "county": "Isle of Wight",
+      "sourcePage": "https://www.wightbadminton.co.uk/",
+      "candidate": null,
+      "rejectedOrMissing": "A standalone association identity asset has not been confirmed.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "jersey",
+      "county": "Jersey",
+      "sourcePage": "http://www.jerseybadminton.net/",
+      "candidate": {
+        "url": "https://clubbuzz-assets.s3.amazonaws.com/pro/logos/1050/responsive.jpg?1440275267",
+        "format": "JPEG",
+        "width": 92,
+        "height": 92,
+        "notes": "Very small association crest; request master."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "kent",
+      "county": "Kent",
+      "sourcePage": "https://www.kentbadminton.co.uk/",
+      "candidate": {
+        "url": "https://www.kentbadminton.co.uk/images/MainBanner.png",
+        "format": "PNG",
+        "width": 1524,
+        "height": 347,
+        "notes": "Official-site banner/wordmark, not a standalone crest; request approved identity asset."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "lancashire",
+      "county": "Lancashire",
+      "sourcePage": "https://www.lancashirebadminton.org.uk/",
+      "candidate": {
+        "url": "https://www.lancashirebadminton.org.uk/Images/11/Association_Logo.jpg",
+        "format": "JPEG",
+        "width": 250,
+        "height": 250,
+        "notes": "Association-branded image; request larger transparent master."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "leicestershire",
+      "county": "Leicestershire",
+      "sourcePage": "https://www.lbabadminton.org/",
+      "candidate": {
+        "url": "https://www.lbabadminton.org/Images/17/Association_Logo.jpg",
+        "format": "JPEG",
+        "width": 250,
+        "height": 250,
+        "notes": "Team Leicestershire artwork used by the association."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "lincolnshire",
+      "county": "Lincolnshire",
+      "sourcePage": "https://lincs-badminton.co.uk/",
+      "candidate": null,
+      "rejectedOrMissing": "A county flag and team photographs are not substitutes for an association logo.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "middlesex",
+      "county": "Middlesex",
+      "sourcePage": "https://www.middlesexbadminton.co.uk/",
+      "candidate": {
+        "url": "https://www.middlesexbadminton.co.uk/MCBAimages/Logo1.gif",
+        "format": "GIF",
+        "width": 93,
+        "height": 139,
+        "notes": "Small association crest; request larger master."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "norfolk",
+      "county": "Norfolk",
+      "sourcePage": "https://norfolkbadminton.co.uk/",
+      "candidate": {
+        "url": "https://norfolkbadminton.co.uk/wp-content/uploads/2025/07/Untitled-1500-x-500-px.svg",
+        "format": "SVG",
+        "width": 1500,
+        "height": 500,
+        "notes": "Vector association branding."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "northamptonshire",
+      "county": "Northamptonshire",
+      "sourcePage": "https://nscba.co.uk/",
+      "candidate": {
+        "url": "https://nscba.co.uk/onewebmedia/NCBA.png",
+        "format": "PNG",
+        "width": 500,
+        "height": 500,
+        "notes": "Transparent association artwork."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "northumberland",
+      "county": "Northumberland",
+      "sourcePage": "https://www.northumberlandbadminton.org/",
+      "candidate": {
+        "url": "https://www.northumberlandbadminton.org/wp-content/uploads/NBA-Logo-897x1024.png",
+        "format": "PNG",
+        "width": 897,
+        "height": 1024,
+        "notes": "Transparent association crest."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "nottinghamshire",
+      "county": "Nottinghamshire",
+      "sourcePage": "https://nottsba.co.uk/",
+      "candidate": {
+        "url": "https://nottsba.co.uk/wp-content/uploads/2026/08/Untitled-3.png",
+        "format": "PNG",
+        "width": 1936,
+        "height": 1933,
+        "notes": "Transparent association logo."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "oxfordshire",
+      "county": "Oxfordshire",
+      "sourcePage": "https://clubspark.lta.org.uk/oxfordshirebadmintonassociation",
+      "candidate": null,
+      "rejectedOrMissing": "A standalone association identity asset has not been confirmed.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "shropshire",
+      "county": "Shropshire",
+      "sourcePage": "https://www.shropshirebadminton.co.uk/",
+      "candidate": {
+        "url": "https://static.wixstatic.com/media/379e24_930184e30d1b424b9dd24116c00c4028~mv2.png",
+        "format": "PNG",
+        "width": 226,
+        "height": 100,
+        "notes": "SCBA header wordmark; request larger master."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "somerset",
+      "county": "Somerset",
+      "sourcePage": "https://somersetbadminton.co.uk/",
+      "candidate": {
+        "url": "https://img1.wsimg.com/isteam/ip/e5b3425f-9835-41f7-80c3-1cbc25f6d979/Somerset%20Logo.jpeg/:/",
+        "format": "JPEG",
+        "width": 742,
+        "height": 159,
+        "notes": "Association wordmark; request transparent/vector master."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "staffordshire",
+      "county": "Staffordshire",
+      "sourcePage": "https://staffsbadminton.org/",
+      "candidate": null,
+      "rejectedOrMissing": "The generic SMASH graphic requires identity confirmation and is not approved as county artwork.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "suffolk",
+      "county": "Suffolk",
+      "sourcePage": "https://suffolkbadminton.co.uk/",
+      "candidate": {
+        "url": "https://suffolkbadminton.co.uk/viking.svg",
+        "format": "SVG",
+        "width": null,
+        "height": null,
+        "notes": "Vector identity displayed by the association."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "surrey",
+      "county": "Surrey",
+      "sourcePage": "https://www.surreybadminton.co.uk/",
+      "candidate": {
+        "url": "https://www.surreybadminton.co.uk/images/Logo1.gif",
+        "format": "GIF",
+        "width": 144,
+        "height": 172,
+        "notes": "Small association crest; request larger master."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "sussex",
+      "county": "Sussex",
+      "sourcePage": "https://sussexbadminton.co.uk/",
+      "candidate": {
+        "url": "https://sussexbadminton.co.uk/wp-content/uploads/2021/09/cropped-cropped-SUSSEX-BADMINTON-EMBLEM-whiteblue-1.jpg",
+        "format": "JPEG",
+        "width": 275,
+        "height": 275,
+        "notes": "Association emblem; request larger transparent master."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-07",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "warwickshire",
+      "county": "Warwickshire",
+      "sourcePage": "https://www.badmintonwarwickshire.co.uk/",
+      "candidate": null,
+      "rejectedOrMissing": "The county flag is not treated as an association logo.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "wiltshire",
+      "county": "Wiltshire",
+      "sourcePage": "https://www.wcba.org.uk/",
+      "candidate": {
+        "url": "https://www.wcba.org.uk/img/wilt-shield-logo-small.png",
+        "format": "PNG",
+        "width": 599,
+        "height": 663,
+        "notes": "Transparent county badminton shield despite the small filename."
+      },
+      "rejectedOrMissing": null,
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "worcestershire",
+      "county": "Worcestershire",
+      "sourcePage": "https://www.worcestershirebadminton.co.uk/",
+      "candidate": null,
+      "rejectedOrMissing": "Google-hosted header imagery needs identity confirmation.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    },
+    {
+      "countyId": "yorkshire",
+      "county": "Yorkshire",
+      "sourcePage": "https://yorkshirebadminton.weebly.com/",
+      "candidate": null,
+      "rejectedOrMissing": "The Babolat sponsor banner is not county identity artwork.",
+      "identifiedAt": "2026-11-12",
+      "reviewedAt": "2026-11-12",
+      "permission": {
+        "status": "not-established",
+        "evidence": null,
+        "allowedUses": [],
+        "credit": null
+      },
+      "releaseStatus": "withheld",
+      "localFile": null,
+      "preparation": "Metadata only. Do not download into public/, embed, hotlink or distribute without documented permission. Preserve original aspect ratio; prefer SVG or transparent master."
+    }
+  ]
+}

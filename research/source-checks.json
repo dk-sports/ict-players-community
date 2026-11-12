@@ -1,0 +1,562 @@
+{
+  "purpose": "Read-only official-source checks; HTTP availability does not establish association recognition or artwork reuse permission. Earlier factual research: 2026-11-07 to 2026-11-12.",
+  "checks": [
+    {
+      "label": "Avon",
+      "url": "https://avonba.org/",
+      "checkedAt": "2026-11-12T15:11:38.023407+00:00",
+      "status": 200,
+      "finalUrl": "https://avonba.org/",
+      "title": "Avon Badminton Association",
+      "sha256": "cc1ac2a5b9ce4273c4c6772f019ed3fb8fdfa83e5f250c3483427bc5df43651a"
+    },
+    {
+      "label": "Bedfordshire",
+      "url": "https://www.bedfordshirebadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:38.024601+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bedfordshirebadminton.co.uk/",
+      "title": "BBA | Bedfordshire Badminton",
+      "sha256": "16377d5e9af84ee792510be368fc18e2c295d55aaad5444b3fb2d2a5772764b8"
+    },
+    {
+      "label": "Berkshire",
+      "url": "https://www.berkshirebadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:38.025528+00:00",
+      "status": 200,
+      "finalUrl": "https://www.berkshirebadminton.co.uk/",
+      "title": "BERKSHIRE COUNTY BADMINTON ASSOCIATION (BCBA)",
+      "sha256": "80b78b39770a0afa6d9570a89cd5a50cb46b4a64a096402e3cfa17c8186f0c60"
+    },
+    {
+      "label": "Buckinghamshire",
+      "url": "https://www.badmintonbucks.co.uk/",
+      "checkedAt": "2026-11-12T15:11:38.026236+00:00",
+      "status": 200,
+      "finalUrl": "https://www.badmintonbucks.co.uk/",
+      "title": "Badminton Bucks - Buckinghamshire County Badminton Association",
+      "sha256": "2e5dbafe387aa537a7093d8e7916810bf3e568eece8c0da83f301ab28dda23d5"
+    },
+    {
+      "label": "Cambridgeshire",
+      "url": "https://www.cambridgeshirebadminton.org/",
+      "checkedAt": "2026-11-12T15:11:38.027688+00:00",
+      "status": 200,
+      "finalUrl": "https://www.cambridgeshirebadminton.org/",
+      "title": "Cambridgeshire Badminton Association (Cambs BA)",
+      "sha256": "1a1ad673929864d44278b99ad0f76731d29471b1cdff1ed486c3f41379d5bb88"
+    },
+    {
+      "label": "Cheshire",
+      "url": "https://www.cheshirebadminton.org/",
+      "checkedAt": "2026-11-12T15:11:38.035728+00:00",
+      "status": 200,
+      "finalUrl": "https://www.cheshirebadminton.org/",
+      "title": "Cheshire Badminton",
+      "sha256": "0a98b2d1e7f39f21c12e6e7e01db8335d100819334862312002ca96fd8893a93"
+    },
+    {
+      "label": "Cornwall",
+      "url": "https://www.cornwallbadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:38.040203+00:00",
+      "status": 200,
+      "finalUrl": "https://www.cornwallbadminton.co.uk/",
+      "title": "Cornwall County Badminton Association |",
+      "sha256": "185cc71ce12e9de016fa8931898063a9ed815f1c317c9f5c5f29c5ab70ff357b"
+    },
+    {
+      "label": "Cumbria",
+      "url": "https://www.cumbria-badminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:38.042729+00:00",
+      "status": 200,
+      "finalUrl": "https://www.cumbria-badminton.co.uk/",
+      "title": "Cumbria Badminton Association",
+      "sha256": "d2804bfb9d6eebb40b228b719f93191a38a5d8f2ab2deaa0433762ce6ce30556"
+    },
+    {
+      "label": "Derbyshire",
+      "url": "https://derbyshirebadminton.org.uk/county-badminton",
+      "checkedAt": "2026-11-12T15:11:39.317669+00:00",
+      "status": 200,
+      "finalUrl": "https://derbyshirebadminton.org.uk/county-badminton",
+      "title": "County Badminton | Derbyshire Badminton",
+      "sha256": "18be33713623ee3efb98540ed06a1c0e7f8338a9f9bae8916f960549af3ebbf6"
+    },
+    {
+      "label": "Devon",
+      "url": "https://www.devoncountyjuniorbadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:39.844560+00:00",
+      "status": 200,
+      "finalUrl": "https://www.devoncountyjuniorbadminton.co.uk/",
+      "title": "Devon County Junior Badminton |",
+      "sha256": "85a0507096b41c9964818ccc38d109c064223e377df76a28958e05aacaa05d2b"
+    },
+    {
+      "label": "Dorset",
+      "url": "https://www.dorsetbadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:39.880390+00:00",
+      "status": 200,
+      "finalUrl": "https://www.dorsetbadminton.co.uk/",
+      "title": "Dorset Badminton Association",
+      "sha256": "f6a2c559a88e37d4fed673cde0bcdadd72739eddd19db0530339572f1267951c"
+    },
+    {
+      "label": "Durham",
+      "url": "https://durhamcountybadminton.wordpress.com/",
+      "checkedAt": "2026-11-12T15:11:39.922227+00:00",
+      "status": 200,
+      "finalUrl": "https://durhamcountybadminton.wordpress.com/",
+      "title": "Durham County Badminton Association",
+      "sha256": "67400e8d30676235c2f2aa811e189ddb8f962d63866b06cbfbc1dbfa06bfefa6"
+    },
+    {
+      "label": "Essex",
+      "url": "https://www.badmintonessex.co.uk/",
+      "checkedAt": "2026-11-12T15:11:40.431464+00:00",
+      "status": 200,
+      "finalUrl": "https://www.badmintonessex.co.uk/",
+      "title": "Badminton Essex - Home",
+      "sha256": "7759b699357b7bbd11dbac5ca7b0010cd2d0791ef7e6c950bc7cb7961cfe095b"
+    },
+    {
+      "label": "Gloucestershire",
+      "url": "https://www.badmintonglos.co.uk/",
+      "checkedAt": "2026-11-12T15:11:40.792497+00:00",
+      "status": 200,
+      "finalUrl": "https://www.badmintonglos.co.uk/",
+      "title": "Badminton Gloucestershire - The one stop shop for Badminton in Gloucestershire",
+      "sha256": "834e6c975d0c1879f954d38609ecf5a142048827ae74ff2bb51a877a1fcba817"
+    },
+    {
+      "label": "Guernsey",
+      "url": "https://badminton.org.gg/",
+      "checkedAt": "2026-11-12T15:11:40.919361+00:00",
+      "status": 200,
+      "finalUrl": "https://badminton.org.gg/",
+      "title": "Guernsey Badminton LBG | Home of Badminton in Guernsey",
+      "sha256": "938fe6b1d8c2fea1064a8acaebfa38ac59178dcf842ea8d68fe087e2b7928089"
+    },
+    {
+      "label": "Hampshire",
+      "url": "https://hampshirebadminton.net/",
+      "checkedAt": "2026-11-12T15:11:41.138820+00:00",
+      "status": 200,
+      "finalUrl": "https://www.hampshirebadminton.net/",
+      "title": "Hampshire Badminton Association | Get Involved",
+      "sha256": "79c492e47fe0b7259d453eb00fc13eef94cf58e89faab30d724a28dc3e84af87"
+    },
+    {
+      "label": "Herefordshire",
+      "url": "https://www.herefordshirebadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:41.325494+00:00",
+      "status": 200,
+      "finalUrl": "https://www.herefordshirebadminton.co.uk/",
+      "title": "Herefordshire Badminton Association",
+      "sha256": "3b2d7f0e550be00a7fb8bcfee23e7e0fb3e6361c3e30dce2f58388b158927627"
+    },
+    {
+      "label": "Hertfordshire",
+      "url": "https://www.hertsbadminton.net/",
+      "checkedAt": "2026-11-12T15:11:41.495598+00:00",
+      "status": 200,
+      "finalUrl": "https://www.hertsbadminton.net/",
+      "title": "Hertfordshire Badminton Association | Powered by FixturesLive",
+      "sha256": "31cf506893d8b58a57aafc4627402cdce8dba2da3ec23d13419618d4f8f8b879"
+    },
+    {
+      "label": "Isle of Man",
+      "url": "https://www.iombadminton.com/",
+      "checkedAt": "2026-11-12T15:11:42.598767+00:00",
+      "status": 200,
+      "finalUrl": "https://www.iombadminton.com/",
+      "title": "Home - Isle of Man Badminton",
+      "sha256": "edf05132234e8f1c300c511082c4ca416a67d74cff236bb8e5c26ab0e3957040"
+    },
+    {
+      "label": "Isle of Wight",
+      "url": "https://www.wightbadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:42.631300+00:00",
+      "status": 200,
+      "finalUrl": "https://www.wightbadminton.co.uk/",
+      "title": "Wight Badminton \u2013 Isle of Wight Badminton Association",
+      "sha256": "32bdf299156c5d46f893176b3712259ba222837d65e31434e51eeb0bb3b7b681"
+    },
+    {
+      "label": "Jersey",
+      "url": "http://www.jerseybadminton.net/",
+      "checkedAt": "2026-11-12T15:11:43.279250+00:00",
+      "status": 200,
+      "finalUrl": "http://www.jerseybadminton.net/",
+      "title": "Welcome :: Jersey Badminton Association",
+      "sha256": "374327ad6690271b10f6999f0e33298a37a01f4b9513166667572a868a45863f"
+    },
+    {
+      "label": "Kent",
+      "url": "https://www.kentbadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:43.856489+00:00",
+      "status": 200,
+      "finalUrl": "https://www.kentbadminton.co.uk/",
+      "title": "Home Page",
+      "sha256": "cfe99b0e7e0162e4b25fa8cbb5044f3b9dac816ec0eb6ffb6a8214b44b40f30b"
+    },
+    {
+      "label": "Lancashire",
+      "url": "https://www.lancashirebadminton.org.uk/",
+      "checkedAt": "2026-11-12T15:11:43.958793+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lancashirebadminton.org.uk/",
+      "title": "Lancashire County Badminton Association - Home",
+      "sha256": "d87fe073a610363293e62292be803ce1048af788a7768ca87b7aebc448f30e67"
+    },
+    {
+      "label": "Leicestershire",
+      "url": "https://www.lbabadminton.org/",
+      "checkedAt": "2026-11-12T15:11:44.811169+00:00",
+      "status": 200,
+      "finalUrl": "https://www.lbabadminton.org/",
+      "title": "Leicestershire Badminton Association - Home",
+      "sha256": "ebe7bb6630f51f4fece38aeda3c2b20fa185d198dc2dcffb07de3409df5a0cfe"
+    },
+    {
+      "label": "Lincolnshire",
+      "url": "https://lincs-badminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:44.962567+00:00",
+      "status": 200,
+      "finalUrl": "https://lincs-badminton.co.uk/",
+      "title": "",
+      "sha256": "4ead40526bd3353d19bc61f4c060ba2a29e1405242487257e8e74b02a93a3e87"
+    },
+    {
+      "label": "Middlesex",
+      "url": "https://www.middlesexbadminton.co.uk/McbaHome.asp?Website=1",
+      "checkedAt": "2026-11-12T15:11:45.616832+00:00",
+      "status": 200,
+      "finalUrl": "https://www.middlesexbadminton.co.uk/McbaHome.asp?Website=1",
+      "title": "Middlesex County Badminton Association",
+      "sha256": "d915f942d7f51c02563148ae81cd9b28f426a7b4a377d727b62bd458c738c7da"
+    },
+    {
+      "label": "Norfolk",
+      "url": "https://norfolkbadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:45.633081+00:00",
+      "status": 200,
+      "finalUrl": "https://norfolkbadminton.co.uk/",
+      "title": "Norfolk Badminton",
+      "sha256": "4582e7e09cb2c88c5b9447348495e3941e623366714811d89f9d945137704204"
+    },
+    {
+      "label": "Northamptonshire",
+      "url": "https://nscba.co.uk/",
+      "checkedAt": "2026-11-12T15:11:46.118736+00:00",
+      "status": 200,
+      "finalUrl": "https://nscba.co.uk/",
+      "title": "Northants County Badminton Association",
+      "sha256": "6ac189c5d9f8e622ea87b2873f58473eecf0c6f3e4a030229144b7d6056b15f7"
+    },
+    {
+      "label": "Northumberland",
+      "url": "https://www.northumberlandbadminton.org/",
+      "checkedAt": "2026-11-12T15:11:46.424939+00:00",
+      "status": 200,
+      "finalUrl": "https://www.northumberlandbadminton.org/",
+      "title": "Northumberland Badminton Association",
+      "sha256": "b40fa2f850b06a4c6d2db79ff0369af95dc6000952875dbda8d75af4b3d05a29"
+    },
+    {
+      "label": "Nottinghamshire",
+      "url": "https://nottsba.co.uk/",
+      "checkedAt": "2026-11-12T15:11:46.888217+00:00",
+      "status": 200,
+      "finalUrl": "https://nottsba.co.uk/",
+      "title": "Nottinghamshire Badminton Association",
+      "sha256": "9d25cf7b865db075176191252ad577e3e6fa3fd9a720a51018ce2168dd9b99f6"
+    },
+    {
+      "label": "Oxfordshire",
+      "url": "https://clubspark.lta.org.uk/oxfordshirebadmintonassociation",
+      "checkedAt": "2026-11-12T15:11:47.993079+00:00",
+      "status": 200,
+      "finalUrl": "https://clubspark.lta.org.uk/oxfordshirebadmintonassociation",
+      "title": "Clubspark / Oxfordshire Badminton Association / Home",
+      "sha256": "ea2626733fb4c894bce3f51c1cc5e09298f73e5e0dbfb6bfae46610a52a839b3"
+    },
+    {
+      "label": "Shropshire",
+      "url": "https://www.shropshirebadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:48.333005+00:00",
+      "status": 200,
+      "finalUrl": "https://www.shropshirebadminton.co.uk/",
+      "title": "SCBA | shropshirebadminton",
+      "sha256": "c6da7064158d8a86212b3f0ec91bcc04f6834764548b83519fef89fccf98e470"
+    },
+    {
+      "label": "Somerset",
+      "url": "https://somersetbadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:48.419559+00:00",
+      "status": 200,
+      "finalUrl": "https://somersetbadminton.co.uk/",
+      "title": "Badminton - Somerset County Badminton",
+      "sha256": "472e4240917b0922575472324c90cb0f7fffe9f27783ef1de811916a732d37fb"
+    },
+    {
+      "label": "Staffordshire",
+      "url": "https://staffsbadminton.org/",
+      "checkedAt": "2026-11-12T15:11:49.068983+00:00",
+      "status": 200,
+      "finalUrl": "https://staffsbadminton.org/",
+      "title": "Staffordshire Badminton County Association \u2013 Badminton in Staffordshire for Junior and Adult Players of all standards",
+      "sha256": "006464f259fd3dbcb1d5852108103d854d112ab939e0d7bd86c918c0fd6462d6"
+    },
+    {
+      "label": "Suffolk",
+      "url": "https://suffolkbadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:49.853429+00:00",
+      "status": 200,
+      "finalUrl": "https://suffolkbadminton.co.uk/",
+      "title": "Suffolk Badminton Association",
+      "sha256": "4ed13f00a8a10be1ce2f604dcaec9ccf8beddea7107324356c64c9acaba87777"
+    },
+    {
+      "label": "Surrey",
+      "url": "https://www.surreybadminton.co.uk/Home.asp?Website=1",
+      "checkedAt": "2026-11-12T15:11:49.860700+00:00",
+      "status": 200,
+      "finalUrl": "https://www.surreybadminton.co.uk/Home.asp?Website=1",
+      "title": "Surrey County Badminton Association",
+      "sha256": "36131759dfbc028991f1fe1c9a04b16ed1f7edd7e6acaa9cc6a5d265a86acaee"
+    },
+    {
+      "label": "Sussex",
+      "url": "https://sussexbadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:49.964724+00:00",
+      "status": 200,
+      "finalUrl": "https://sussexbadminton.co.uk/",
+      "title": "Sussex County Badminton",
+      "sha256": "b8cc036dd859098315ef02e0165f0f8778f98533b92c493f56564bcffd110608"
+    },
+    {
+      "label": "Warwickshire",
+      "url": "https://www.badmintonwarwickshire.co.uk/",
+      "checkedAt": "2026-11-12T15:11:50.105761+00:00",
+      "status": 200,
+      "finalUrl": "https://www.badmintonwarwickshire.co.uk/",
+      "title": "Badminton Warwickshire | Home",
+      "sha256": "fc5a47deb922df49919a3087e9988818fbc5e1df00b2cb31c7935195d4d8f8de"
+    },
+    {
+      "label": "Wiltshire",
+      "url": "https://www.wcba.org.uk/",
+      "checkedAt": "2026-11-12T15:11:50.166094+00:00",
+      "status": 200,
+      "finalUrl": "https://www.wcba.org.uk/",
+      "title": "Wiltshire CBA",
+      "sha256": "7245e6b822bb1916cdd62f5770e573f8d45690d969736f9863c2996bbc2ae3da"
+    },
+    {
+      "label": "Worcestershire",
+      "url": "https://www.worcestershirebadminton.co.uk/",
+      "checkedAt": "2026-11-12T15:11:50.714363+00:00",
+      "status": 200,
+      "finalUrl": "https://www.worcestershirebadminton.co.uk/",
+      "title": "Worcestershire Badminton Association",
+      "sha256": "65b425c5c10c69438f1e1eaa3c1857df3394961e31fdba776bd0179356eee271"
+    },
+    {
+      "label": "Yorkshire",
+      "url": "https://yorkshirebadminton.weebly.com/",
+      "checkedAt": "2026-11-12T15:11:51.320592+00:00",
+      "status": 200,
+      "finalUrl": "https://yorkshirebadminton.weebly.com/",
+      "title": "The Home of Yorkshire Badminton - Home",
+      "sha256": "964f061e261046009bc05ffedd191b0e6d3384ebdbe74a2d50f2f82f831366aa"
+    },
+    {
+      "label": "Berkshire history",
+      "url": "https://www.berkshirebadminton.co.uk/about",
+      "checkedAt": "2026-11-12T15:11:51.547520+00:00",
+      "status": 200,
+      "finalUrl": "https://www.berkshirebadminton.co.uk/about",
+      "title": "About \u2014 BERKSHIRE COUNTY BADMINTON ASSOCIATION (BCBA)",
+      "sha256": "e4212ed8d4a3004c7e63eb10cc190e1603c44f7370d92f62909341beefd83ea4"
+    },
+    {
+      "label": "Cheshire history",
+      "url": "https://www.cheshirebadminton.org/archive/",
+      "checkedAt": "2026-11-12T15:11:51.581976+00:00",
+      "status": 200,
+      "finalUrl": "https://www.cheshirebadminton.org/archive/",
+      "title": "Archive \u2013 Cheshire Badminton",
+      "sha256": "f31258b2ffb0dd2b44fb6ed228faa2e9ac3ce3d0700aa56cbcb06a759b2a76dc"
+    },
+    {
+      "label": "Somerset history",
+      "url": "https://somersetbadminton.co.uk/about-us",
+      "checkedAt": "2026-11-12T15:11:51.823653+00:00",
+      "status": 200,
+      "finalUrl": "https://somersetbadminton.co.uk/about-us",
+      "title": "Somerset Badminton History and Our Association",
+      "sha256": "ff754810925cb125e1f85ec5d48aee343a38b8b94762bfd86fdd1e25d7c9179d"
+    },
+    {
+      "label": "Bedfordshire history",
+      "url": "https://www.bedfordshirebadminton.co.uk/about-bba",
+      "checkedAt": "2026-11-12T15:11:52.216022+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bedfordshirebadminton.co.uk/about-bba",
+      "title": "About BBA | Bedfordshire Badminton",
+      "sha256": "087221febcd36462af8ce818b4a2023e53effa41613f1a2bfbe99939229258eb"
+    },
+    {
+      "label": "Jersey history",
+      "url": "http://www.jerseybadminton.net/history",
+      "checkedAt": "2026-11-12T15:11:52.595145+00:00",
+      "status": 200,
+      "finalUrl": "http://www.jerseybadminton.net/history",
+      "title": "History :: Jersey Badminton Association",
+      "sha256": "aaaaf6c72ea7126d2bdf2668cc1515a20c834315984b94895bdc54142736e4ae"
+    },
+    {
+      "label": "Warwickshire history",
+      "url": "https://www.badmintonwarwickshire.co.uk/about-1",
+      "checkedAt": "2026-11-12T15:11:52.730509+00:00",
+      "status": 200,
+      "finalUrl": "https://www.badmintonwarwickshire.co.uk/about-1",
+      "title": "About Us | Badminton Warwickshire",
+      "sha256": "3f106bd75651af8163ebaa779eeca785dec7df1836a53a77aa104722de1c77f1"
+    },
+    {
+      "label": "Wiltshire constitution",
+      "url": "https://www.wcba.org.uk/constitution.php",
+      "checkedAt": "2026-11-12T15:11:52.730931+00:00",
+      "status": 200,
+      "finalUrl": "https://www.wcba.org.uk/constitution.php",
+      "title": "Wiltshire CBA",
+      "sha256": "67a27b5a608fcda9f116e7cf68a8ad7a136f8a82245af1f9e684afeccb126b8e"
+    },
+    {
+      "label": "Devon programmes",
+      "url": "https://www.devoncountyjuniorbadminton.co.uk/training-sessions-and-matches/",
+      "checkedAt": "2026-11-12T15:11:52.850131+00:00",
+      "status": 200,
+      "finalUrl": "https://www.devoncountyjuniorbadminton.co.uk/training-sessions-and-matches/",
+      "title": "Training Sessions and Matches | Devon County Junior Badminton",
+      "sha256": "b1c2267c8716cdf47ecccf69df0e1fca00e96fd41673ce79583fe89aaa2ba10c"
+    },
+    {
+      "label": "Hertfordshire juniors",
+      "url": "https://hjba.org.uk/",
+      "checkedAt": "2026-11-12T15:11:53.393361+00:00",
+      "status": 202,
+      "finalUrl": "https://hjba.org.uk/",
+      "title": "",
+      "sha256": "ad72a4cedbb8a7ba215fadb5024655324c566bdd8ae6b0d369eea02a72940a5c"
+    },
+    {
+      "label": "Hertfordshire ICT 2025",
+      "url": "https://www.hertsbadminton.net/news/congratulations-to-hjbas-u18-county-squad-for-their-incredible-performance-at-ict/",
+      "checkedAt": "2026-11-12T15:11:53.404598+00:00",
+      "status": 200,
+      "finalUrl": "https://www.hertsbadminton.net/news/congratulations-to-hjbas-u18-county-squad-for-their-incredible-performance-at-ict/",
+      "title": "Congratulations!! to HJBA\u2019s U18 County Squad for their Incredible performance at ICT | Hertfordshire Badminton Association",
+      "sha256": "4597c14ed3539c4b19a6d5a510e9de315d88f5ae6ed113126172dade8e9be71b"
+    },
+    {
+      "label": "Oxfordshire ICT 2024",
+      "url": "https://clubspark.lta.org.uk/oxfordshirebadmintonassociation",
+      "checkedAt": "2026-11-12T15:11:53.837974+00:00",
+      "status": 200,
+      "finalUrl": "https://clubspark.lta.org.uk/oxfordshirebadmintonassociation",
+      "title": "Clubspark / Oxfordshire Badminton Association / Home",
+      "sha256": "ea2626733fb4c894bce3f51c1cc5e09298f73e5e0dbfb6bfae46610a52a839b3"
+    },
+    {
+      "label": "Guernsey about",
+      "url": "https://badminton.org.gg/about/",
+      "checkedAt": "2026-11-12T15:11:53.899642+00:00",
+      "status": 200,
+      "finalUrl": "https://badminton.org.gg/about/",
+      "title": "About Us | Guernsey Badminton LBG",
+      "sha256": "36a14d32e43495da05dee3a6c9492b34cd7947da7033975e1a9398813506af55"
+    },
+    {
+      "label": "Isle of Man about",
+      "url": "https://www.iombadminton.com/about-us/",
+      "checkedAt": "2026-11-12T15:11:53.921939+00:00",
+      "status": 200,
+      "finalUrl": "https://www.iombadminton.com/about-us/",
+      "title": "About us - Isle of Man Badminton",
+      "sha256": "9daba9e09d6bbf7ca833e1f43e0acd337b83e8dd301b55b8d22d15f4660db383"
+    },
+    {
+      "label": "Herefordshire clubs",
+      "url": "https://www.herefordshirebadminton.co.uk/index.php?pg=2",
+      "checkedAt": "2026-11-12T15:11:54.064716+00:00",
+      "status": 200,
+      "finalUrl": "https://www.herefordshirebadminton.co.uk/index.php?pg=2",
+      "title": "Herefordshire Badminton Association",
+      "sha256": "674c7b55a18ef6690b0c442f718a84c882c0f8baf32126fce149d502cf68c7db"
+    },
+    {
+      "label": "Wiltshire juniors",
+      "url": "https://www.wcba.org.uk/juniors.php",
+      "checkedAt": "2026-11-12T15:11:54.433838+00:00",
+      "status": 200,
+      "finalUrl": "https://www.wcba.org.uk/juniors.php",
+      "title": "Wiltshire CBA",
+      "sha256": "b9dcfb7df0d4f4b67fc38ec0c41c720db87225c118f4935ca2dc4e6cdc05a580"
+    },
+    {
+      "label": "Wiltshire masters",
+      "url": "https://www.wcba.org.uk/masters.php",
+      "checkedAt": "2026-11-12T15:11:54.738816+00:00",
+      "status": 200,
+      "finalUrl": "https://www.wcba.org.uk/masters.php",
+      "title": "Wiltshire CBA",
+      "sha256": "368c9ffeffb7d729932a299f912f5fa10bc0101dde01669f15f33dcb46d980f6"
+    },
+    {
+      "label": "Warwickshire juniors",
+      "url": "https://www.warwickshireschoolsbadminton.org.uk/",
+      "checkedAt": "2026-11-12T15:11:54.784016+00:00",
+      "status": 200,
+      "finalUrl": "https://www.warwickshireschoolsbadminton.org.uk/",
+      "title": "Warwickshire junior county badminton | Warwickshire Schools Badminton Association",
+      "sha256": "a731854fc8619ba2ae6df837f8c3188d356bb40bb2e05e4fbbfb49029f426b81"
+    },
+    {
+      "label": "Cambridgeshire programmes",
+      "url": "https://www.cambridgeshirebadminton.org/about",
+      "checkedAt": "2026-11-12T15:11:55.020970+00:00",
+      "status": 200,
+      "finalUrl": "https://www.cambridgeshirebadminton.org/about",
+      "title": "About \u2014 Cambridgeshire Badminton Association (Cambs BA)",
+      "sha256": "e334c5905be6cf79fd294f2cd968c6069dee35a1506e2987fffd44237aaa461c"
+    },
+    {
+      "label": "Berkshire juniors",
+      "url": "https://www.berkshirebadminton.co.uk/juniorbadminton",
+      "checkedAt": "2026-11-12T15:11:55.496605+00:00",
+      "status": 200,
+      "finalUrl": "https://www.berkshirebadminton.co.uk/juniorbadminton",
+      "title": "Junior Badminton \u2014 BERKSHIRE COUNTY BADMINTON ASSOCIATION (BCBA)",
+      "sha256": "4b9b469760a1dc491d7dcb5ebe625ba5029cc40423ebb876824b49a46e9ca514"
+    },
+    {
+      "label": "Devon association",
+      "url": "https://www.facebook.com/devonbadminton/",
+      "checkedAt": "2026-11-12T15:11:55.890270+00:00",
+      "status": 200,
+      "finalUrl": "https://www.facebook.com/devonbadminton/",
+      "title": "Devon County Badminton Association",
+      "sha256": "cb108cb2d276aa7b30787bac9bc971b3446a68535aed763e9978f194e6362ebb"
+    },
+    {
+      "label": "Cumbria county programmes",
+      "url": "https://www.cumbria-badminton.co.uk/county.html",
+      "finalUrl": "https://www.cumbria-badminton.co.uk/county.html",
+      "status": 200,
+      "checkedAt": "2026-11-12T15:21:46.513326+00:00",
+      "sha256": "24ec35c41ff82b25cd90182d4adc4de8449a1aea0e61164b489650c85a69abe8"
+    }
+  ]
+}

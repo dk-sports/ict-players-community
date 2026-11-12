@@ -26,7 +26,7 @@ Tests use Playwright and `/usr/bin/chromium` in this cloud environment. They exe
 ## Prototype boundaries
 
 - Hash-based pages include a home countdown, county directory and individual pages, news, teams, history, sponsorship, contribution form, safeguarding/privacy, removal requests and demo admin.
-- The county list is illustrative, not a confirmed participation list. Countdown targets 1 April as a labelled placeholder; official dates and venue need verification.
+- The county directory contains 41 provisional association profiles, pending final verification with Badminton England. Membership is distinct from ICT participation. Countdown targets 1 April as a labelled placeholder; official dates and venue need verification.
 - Year selector demonstrates 2027–2029 editions. Future production data should link events, county participation, stories, teams and archives to an event ID.
 - Original local SVG artwork stands in for team photos; no real junior information or photographs are used.
 - Sample submissions, moderation decisions and removal requests stay in page memory and disappear on reload. Sponsorship form only shows confirmation; no enquiry is transmitted. No file upload, database, analytics, accounts or personal-data collection exists.
@@ -40,4 +40,10 @@ Confirm tournament details and participation, replace illustrative content only 
 
 ## Private staging review
 
-See [STAGING.md](STAGING.md) for click-by-click Netlify setup and the review walkthrough. `netlify.toml` registers a server-side Edge Function gate for every path; absent credentials deny access. No staging deployment has been created.
+See [STAGING.md](STAGING.md) for click-by-click Netlify setup and the review walkthrough. `netlify.toml` registers a server-side Edge Function gate for every path; absent credentials deny access. County-directory changes are review-only; deployment requires the owner’s approval.
+
+## County Badminton directory
+
+The directory is powered by `public/data/counties.js` and rendered by `public/county-directory.js`. It includes searchable alphabetical cards, all 41 profiles, source dates, programme confirmation labels and separate ICT Heritage records. Existing Northamptonshire prototype information is retained. See [the implementation review](research/COUNTY-DIRECTORY.md) for research limitations, source checks, artwork permissions and review instructions.
+
+All association artwork is withheld pending documented reuse permission. Only metadata references are prepared in `research/county-artwork-register.json`; no logo images are shipped or hotlinked. County monograms are text placeholders, not fabricated shields.
