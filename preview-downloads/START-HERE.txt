@@ -1,0 +1,24 @@
+ICT COUNTY DIRECTORY — PRIVATE OFFLINE REVIEW
+
+1. Extract / unzip this download if needed.
+2. Double-click ICT-County-Directory-Preview.html.
+3. It opens in your browser directly at the 41-county directory.
+4. Search for a county, click a card, or use Jump to a county.
+
+Suggested profiles: Northamptonshire, Devon, Wiltshire, Yorkshire and Hertfordshire.
+On a profile, choose ICT Heritage or open Sources, verification & open questions.
+Northamptonshire also retains its original community information in an expandable section.
+
+No installation, coding, server, passwords or Netlify changes are needed.
+Keep this file on your own device; it is not password-encrypted. Do not upload it to hosting.
+County artwork remains withheld pending permission. No real player data is included.
+All normal preview interactions work without internet. Official external website/source links
+need internet only if you click them. Demo entries are fictional and clear on reload.
+
+Source: review/county-badminton-directory, commit 992a448.
+Prepared 12 November 2026. No merge or deployment performed.
+
+Validation: bundled HTML contents tested in an offline Chromium session, including all five
+requested profiles, search, alphabet filters and mobile layout; no network requests. The managed
+workspace browser blocks direct file URLs, so the file-opening step itself could not be tested
+there. Ordinary personal browsers normally support opening downloaded HTML files.
